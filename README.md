@@ -1,20 +1,19 @@
 # Shiny Application and Reproducible Pitch
 
-This peer assessed assignment has two parts. First, you will create a Shiny application and deploy it on Rstudio's servers. Second, you will use Slidify or Rstudio Presenter to prepare a reproducible pitch presentation about your application.
+## Background
 
-## Your Shiny Application
+This peer assessed assignment has two parts. 
 
-    Write a shiny application with associated supporting documentation. The documentation should be thought of as whatever a user will need to get started using your application.
-    Deploy the application on Rstudio's shiny server
-    Share the application link by pasting it into the provided text box
-    Share your server.R and ui.R code on github
+- Create a Shiny application and deploy it on Rstudio's servers. link  <https://henryskas.shinyapps.io/ReproduciblePitchCoursera/>
+- Use Slidify or Rstudio Presenter to prepare a reproducible pitch presentation about your application. link <https://github.com/kaserekahenrys/shiny.git>
 
-## The application must include the following:
+### Description
 
-    Some form of input (widget: textbox, radio button, checkbox, ...)
-    Some operation on the ui input in sever.R
-    Some reactive output displayed as a result of server calculations
-    You must also include enough documentation so that a novice user could use your application.
-    The documentation should be at the Shiny website itself. Do not post to an external link.
+The data was extracted from the 1974 Motor Trend US magazine, and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles (1973–74 models). 
 
-The Shiny application in question is entirely up to you. However, if you're having trouble coming up with ideas, you could start from the simple prediction algorithm done in class and build a new algorithm on one of the R datasets packages. Please make the package simple for the end user, so that they don't need a lot of your prerequisite knowledge to evaluate your application. You should emphasize a simple project given the short time frame.
+
+## Objective
+
+Our application allow to calculate the cost of gasoline based of the distance. The average price we take is the actual price.
+
+
